@@ -1,0 +1,37 @@
+.firstProgressbar .CircularProgressbar-path {
+  fill: none !important;
+  stroke-linecap: butt !important;
+}
+.secondProgressbar {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 13rem;
+  z-index: 9 !important;
+}
+
+.firstProgressbar {
+  width: 13rem;
+}
+.secondProgressbar .CircularProgressbar-path {
+  stroke-linecap: butt !important;
+}
+.secondProgressbar .CircularProgressbar-trail {
+  stroke: transparent !important;
+  z-index: 9 !important;
+}
+
+.grid-c7 {
+  background-color: #fff;
+  padding: 2rem;
+  margin-right: 16px;
+  border-radius: 10px;
+  /* max-width: 20rem; */
+}
+
+.progressbars {
+  position: relative;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
